@@ -1,21 +1,41 @@
-# Blazor Starter Application
+# Interview-Manager
+Questions flow for interviews and guide for recruitment.
 
-This template contains an example [Blazor WebAssembly](https://docs.microsoft.com/aspnet/core/blazor/?view=aspnetcore-3.1#blazor-webassembly) client application, a C# [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) and a C# class library with shared code.
+### Tech stack 
+* Azure for Infrastructure 
+* .Net Stack - Net Core LTS 3.1
+* More info:
+    * https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor
 
-## Getting Started
+### Current template for Blazor on Static Web Apps taken from:
+https://devblogs.microsoft.com/aspnet/azure-static-web-apps-with-blazor/
+https://github.com/staticwebdev/blazor-starter
 
-Create a repository from the [GitHub template](https://docs.github.com/en/enterprise/2.22/user/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) and then clone it locally to your machine.
+### DB connections and tables 
 
-Once you clone the project, open the solution in [Visual Studio](https://visualstudio.microsoft.com/vs/community/) and press **F5** to launch both the client application and the Functions API app.
 
-_Note: If you're using the Azure Functions CLI tools, refer to [the documentation](https://docs.microsoft.com/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash) on how to enable CORS._
+###	UI interface
 
-## Template Structure
+###	Hosting 
+* Azure Static Web Apps (Hosting)
+* Cosmos DB (DataBase)
+* Azure Functions 
+* Reference: 
+    * https://www.maneu.net/blog/2020-05-deploy-blazor-client-apps-with-azure-static-apps/
+    * https://www.programmingwithwolfgang.com/free-website-hosting-with-azure/
+    * https://microsoft.github.io/AzureTipsAndTricks/blog/tip221.html
 
-* **Client**: The Blazor WebAssembly sample application
-* **API**: A C# Azure Functions API, which the Blazor application will call
-* **Shared**: A C# class library with a shared data model between the Blazor and Functions application
 
-## Deploy to Azure Static Web Apps
+###	User Access:
+* Admin (Sourcing, Manager, Tech-Lead/Architech)
+    * Allow to Create, Edit, and Delete
+* User (Interviewer, Self-service account-skills)
+    * Access to resources, select specific skills in his profile
 
-This application can be deployed to [Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps), to learn how, check out [our quickstart guide](https://aka.ms/blazor-swa/quickstart).
+
+###	Flow diagrams
+
+
+
+### Custom 
+
