@@ -41,6 +41,16 @@ https://github.com/staticwebdev/blazor-starter
 
 
 ###	Flow diagrams
+* Using [C4 Model](https://c4model.com/) for visualising software architecture
+
+#### Level 1
+* 1rst C4 Draft - [System Concept Diagram](https://viewer.diagrams.net/?title=Interview-Manager#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1cIje9TWgKgF2h1c9EVswSSyE39R-Y_2A%26export%3Ddownload)
+   
+
+* References:
+   * https://c4model.com/
+   * https://drive.google.com/file/d/1cIje9TWgKgF2h1c9EVswSSyE39R-Y_2A/view?usp=sharing
+   
 
 
 
